@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# backup old vim, if any
+mkdir -p backup
+mv ~/.vimrc ./backup/.vimrc
+mv ~/.vim ./backup/.vim
+
+# copy in this src
+cp -r ./vim ~/.vim
+cp ./vimrc ~/.vimrc

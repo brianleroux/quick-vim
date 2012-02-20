@@ -1,0 +1,16 @@
+#!/bin/sh
+
+if [ -e ~/backup/.vimrc ]
+then
+    #echo "restoring vimrc from backup"
+    rm ~/.vimrc
+    mv ./backup/.vimrc ~/.vimrc
+fi
+
+if [ -e ~/backup/.vim ]
+then
+    #echo "restoring vim from backup"
+    rm -rf ~/.vim
+    mv ./backup/.vim ~/.vim
+fi
+
