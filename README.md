@@ -34,17 +34,16 @@ if you do need more, you can always fork this repo, create a branch, modify the 
 
 quick-vim requires a bash and git. from there:
 
-    git clone quick-vim
+    git clone git://github.com/brianleroux/quick-vim.git
     cd quick-vim
-    ./install
+    ./quick-vim install
 
-upgrading
+you can reset to the default vim env by simply:
 
-    cd quick-vim
-    git pull
-    ./install
+    ./quick-vim uninstall
 
-if you want to restore to the original vim installation
+brute force upgrade it all:
 
-    ./uninstall
+    ./quick-vim upgrade
 
+thats it.
