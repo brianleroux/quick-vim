@@ -1,24 +1,26 @@
 # quick-vim
 
-portable text exiting for js devs
+Portable text exiting for JS devs.
 
 ## the problem
 
-for years I found myself trying to make THE ULTIMATE VIM CONFIGURATION. when software tries to be perfect in all situations it usually just ends up generally sucking at most of them. instead of trying to make vim a clumsy "does it all" ide quick-vim strives to make vim a lightweight, simple, portable and easily repeatable text editor. 
+For years I've found myself trying to make THE ULTIMATE VIM CONFIGURATION. When software tries to be perfect in all situations it usually just ends up generally sucking at most of them. Instead of trying to make vim a clumsy "does it all" IDE `quick-vim` strives to make vim a lightweight, simple, portable and easily repeatable text editor. 
 
 ## solution
 
+- three use cases: install, upgrade, and uninstall
 - bash and git are the only deps
 - no goofy gui tty business; this a vimrc for a vim that lives in a shell
 - pathogen for managing deps
-- three use cases: install, upgrade, and uninstall
 - bundles are limited to the simple stuff and not relearning things your shell does better: like git
 - no weird bundles that require re-compilation of vim or outside scripting languages
 - bundle config is in a plain text file stored in the root of this directory
 
 ## the bundles for me
 
-this is a portable text editor for doing js dev on the run, in a shell, probably on a temporary machine, possibly drunk. for such cases this is all I've found I need to get the job done:
+This is a portable text editor for doing JS dev on the run, in a shell, probably on a temporary machine, possibly drunk. 
+
+For such cases this is all I've found I need to get the job done:
 
 - https://github.com/scrooloose/nerdtree.git
 - https://github.com/pangloss/vim-javascript.git
@@ -26,24 +28,25 @@ this is a portable text editor for doing js dev on the run, in a shell, probably
 - https://github.com/altercation/vim-colors-solarized.git
 - https://github.com/plasticboy/vim-markdown.git
 
-vim is surprisely powerful stand-alone. odds are you don't *really* need that bundle. try to work with the stock install. you'll be surprised! and less, dependant on custom schemes. (ironic)
+Vim is surprisely powerful stand-alone, odds are you don't *really* need a particular plugin bundle. Try to work with the stock install. You'll be surprised! And less, dependant on custom schemes. (Ironic words for a vim config project, I know.)
 
-if you do need more, you can always fork this repo, create a branch, modify the bundles.txt to your hearts desire. if you find a bundle that meets the criteria above that you think I should check out: pls send a pull request!
+If you do need more, you can always fork this repo, create a branch, modify the bundles.txt to your hearts desire. If you find a bundle that meets the criteria above that you think I should check out: pls send a pull request!
 
 ## usage
 
-quick-vim requires a bash and git. from there:
+Getting started with `quick-vim` is easy:
 
     git clone git://github.com/brianleroux/quick-vim.git
     cd quick-vim
     ./quick-vim install
 
-you can reset to the default vim env by simply:
+You can reset to the default/previous vim env simply:
 
     ./quick-vim uninstall
 
-brute force upgrade it all:
+Brute force upgrade everything:
 
     ./quick-vim upgrade
 
-thats it.
+And thats it.
+
