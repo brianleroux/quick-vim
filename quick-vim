@@ -11,13 +11,15 @@ Commands:
     install    installs from the git repo
     uninstall  restores original system vim config
     upgrade    clobbers existing setup and installs fresh from git
+    help       print this msg
 
 EOF
 }
 
 # backs default home vim up
 backup () {
-    if [ -e ./backup ]; then 
+    if [-e ./backup]
+    then 
         echo 'skipping backup'
     else
         mkdir -p ./backup
@@ -67,7 +69,8 @@ if [ "$1" != "" ]; then
     wl=(install uninstall upgrade help)
     for i in "${wl[@]}"
     do
-        if [ "$i" == "$1" ] ; then
+        if ["$i" == "$1"]
+        then
             $1
             exit 0
         fi
