@@ -1,5 +1,7 @@
 https://github.com/scrooloose/nerdtree.git
+https://github.com/altercation/vim-colors-solarized.git
+https://github.com/tpope/vim-surround.git
+https://github.com/msanders/snipmate.vim.git
 https://github.com/pangloss/vim-javascript.git
 https://github.com/kchmck/vim-coffee-script.git
-https://github.com/altercation/vim-colors-solarized.git
 https://github.com/plasticboy/vim-markdown.git
