@@ -6,6 +6,7 @@ set nocompatible
 set nobackup
 set nowb
 set noswapfile
+set ic
 
 " syntax highligting
 syntax enable
