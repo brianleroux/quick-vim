@@ -3,6 +3,9 @@ syntax on
 filetype plugin indent on
 set nofoldenable
 set nocompatible
+set nobackup
+set nowb
+set noswapfile
 
 " syntax highligting
 syntax enable
