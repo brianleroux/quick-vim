@@ -27,3 +27,6 @@ set sw=4
 
 " \+n toggles the nerdtree
 map <leader>n :NERDTreeToggle<CR>
+
+" 2 space coffeescript for the love of..
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
