@@ -23,8 +23,14 @@ backup () {
         echo 'skipping backup'
     else
         mkdir -p ./backup
-        mv ~/.vimrc ./backup/.vimrc
-        mv ~/.vim ./backup/.vim
+        if [ -e ~/.vimrc ]
+        then
+            mv ~/.vimrc ./backup/.vimrc
+        fi
+        if [ -e ~/.vim ]
+        then
+            mv ~/.vim ./backup/.vim
+        fi
     fi
 }
 
@@ -51,8 +57,14 @@ uninstall () {
     then
         rm ~/.vimrc
         rm -rf ~/.vim
-        mv ./backup/.vimrc ~/.vimrc
-        mv ./backup/.vim ~/.vim
+        if [ -e ./backup/.vimrc ]
+        then
+            mv ./backup/.vimrc ~/.vimrc
+        fi
+        if [ -e ./backup/.vim ]
+        then
+            mv ./backup/.vim ~/.vim
+        fi
         rm -rf ./backup
     fi
 }
