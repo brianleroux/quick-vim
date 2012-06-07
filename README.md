@@ -19,7 +19,7 @@ For years I've found myself trying to make THE ULTIMATE VIM CONFIGURATION. When 
 
 - three use cases: install, upgrade, and uninstall
 - bash and git are the only deps
-- no goofy gui tty business; this a vimrc for a vim that lives in a shell
+- no goofy gui tty business; this is a vimrc for a vim that lives in a shell
 - pathogen for managing deps
 - bundles are limited to the simple stuff and not relearning things your shell does better: like git
 - no weird bundles that require re-compilation of vim or outside scripting languages
