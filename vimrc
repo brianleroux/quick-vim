@@ -17,8 +17,8 @@ colorscheme solarized
 " quiet pls
 set visualbell t_vb=
 
-" turn on line numbers
-set number
+" turn OFF line numbers
+set nonumber
 
 " 4 space softabs default
 set expandtab
