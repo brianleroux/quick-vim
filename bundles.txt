@@ -5,3 +5,4 @@ https://github.com/msanders/snipmate.vim.git
 https://github.com/pangloss/vim-javascript.git
 https://github.com/kchmck/vim-coffee-script.git
 https://github.com/plasticboy/vim-markdown.git
+https://github.com/groenewege/vim-less
