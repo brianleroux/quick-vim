@@ -8,3 +8,4 @@ https://github.com/plasticboy/vim-markdown.git
 https://github.com/groenewege/vim-less
 https://github.com/mattn/zencoding-vim
 https://github.com/wavded/vim-stylus.git
+https://github.com/elzr/vim-json.git
