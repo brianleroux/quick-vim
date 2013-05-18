@@ -12,7 +12,9 @@ set ic
 syntax enable
 set background=dark
 let g:solarized_termcolors=256
+set t_Co=16 " added for chromeos crosh chroot ubuntu
 colorscheme solarized
+
 
 " quiet pls
 set visualbell t_vb=
