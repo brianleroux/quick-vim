@@ -30,5 +30,8 @@ set sw=4
 " \+n toggles the nerdtree
 map <leader>n :NERDTreeToggle<CR>
 
+" ctrl f for jsbeautify
+map <c-f> :call JsBeautify()<cr>
+
 " 2 space coffeescript for the love of..
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
