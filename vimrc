@@ -37,3 +37,6 @@ map <c-f> :call JsBeautify()<cr>
 
 " 2 space coffeescript for the love of..
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+
+" no need to fold things in markdown all the time
+let g:vim_markdown_folding_disabled = 1
