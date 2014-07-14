@@ -11,3 +11,4 @@ https://github.com/wavded/vim-stylus.git
 https://github.com/elzr/vim-json.git
 https://github.com/digitaltoad/vim-jade.git
 https://github.com/brianleroux/vim-jsbeautify.git
+https://github.com/kien/ctrlp.vim.git
