@@ -6,7 +6,7 @@ https://github.com/jelera/vim-javascript-syntax.git
 https://github.com/kchmck/vim-coffee-script.git
 https://github.com/plasticboy/vim-markdown.git
 https://github.com/groenewege/vim-less
-https://github.com/mattn/zencoding-vim
+https://github.com/mattn/emmet-vim
 https://github.com/wavded/vim-stylus.git
 https://github.com/elzr/vim-json.git
 https://github.com/digitaltoad/vim-jade.git
