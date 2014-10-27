@@ -7,6 +7,7 @@ set nobackup
 set nowb
 set noswapfile
 set ic
+set mouse=a 
 
 " syntax highligting
 syntax enable
@@ -22,10 +23,10 @@ set visualbell t_vb=
 " turn OFF line numbers
 " set nonumber ...I go back and forth on this one
 
-" 4 space softabs default
+" 2 space softabs default
 set expandtab
-set ts=4
-set sw=4
+set ts=2
+set sw=2
 
 " \+n toggles the nerdtree
 map <leader>n :NERDTreeToggle<CR>
