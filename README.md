@@ -13,7 +13,7 @@ Portable text exiting for devs.
 
 ## the problem
 
-When software many things it sacrifices doing one thing very well. Instead of trying to make vim a clumsy "does it all" IDE `quick-vim` is lightweight, relies on simple defaults, thusly very portable and easily repeatable text editor. 
+When software does many things it sacrifices doing one thing very well. Instead of trying to make vim a clumsy "does it all" IDE `quick-vim` is lightweight, relies on simple defaults, thusly very portable and easily repeatable text editor. 
 
 ## solution
 
