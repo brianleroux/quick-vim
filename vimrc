@@ -14,14 +14,15 @@ syntax enable
 set background=dark
 let g:solarized_termcolors=256
 set t_Co=16 " added for chromeos crosh chroot ubuntu
-colorscheme solarized
+colorscheme lucius 
 
+" make subshell way more obvs
+let $DGREY="\e[0;36m"
+let $ENDCOLOR="\e[0m"
+let $PS1="$DGREY#! $ENDCOLOR"
 
 " quiet pls
 set visualbell t_vb=
-
-" turn OFF line numbers
-" set nonumber ...I go back and forth on this one
 
 " 2 space softabs default
 set expandtab
@@ -32,7 +33,7 @@ set sw=2
 map <leader>n :NERDTreeToggle<CR>
 
 " ctrl f for jsbeautify
-let g:jsbeautify = {"indent_size": 4, "indent_char": "\t"}
+let g:jsbeautify = {"indent_size": 2, "indent_char": "\t"}
 let g:jsbeautify_engine = "node"
 map <c-f> :call JsBeautify()<cr>
 
