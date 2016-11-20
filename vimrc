@@ -13,13 +13,23 @@ set mouse=a
 syntax enable
 set background=dark
 let g:solarized_termcolors=256
-set t_Co=16 " added for chromeos crosh chroot ubuntu
+"set t_Co=16 " added for chromeos crosh chroot ubuntu
 colorscheme lucius 
 
 " make subshell way more obvs
 let $DGREY="\e[0;36m"
 let $ENDCOLOR="\e[0m"
 let $PS1="$DGREY#! $ENDCOLOR"
+
+" get rid of the VertSplit | uglyness
+set fillchars+=vert:\ 
+hi VertSplit ctermbg=NONE
+
+" hide the status message bar
+set noshowmode
+set noruler
+set laststatus=0
+set noshowcmd
 
 " quiet pls
 set visualbell t_vb=
@@ -31,6 +41,11 @@ set sw=2
 
 " \+n toggles the nerdtree
 map <leader>n :NERDTreeToggle<CR>
+
+" hide the annoying Press ? for help in NerdTree
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+hi NERDTreeFile ctermfg=darkgrey ctermbg=none cterm=none
 
 " ctrl f for jsbeautify
 let g:jsbeautify = {"indent_size": 2, "indent_char": "\t"}
