@@ -15,6 +15,7 @@ set background=dark
 let g:solarized_termcolors=256
 "set t_Co=16 " added for chromeos crosh chroot ubuntu
 colorscheme lucius 
+au BufRead,BufNewFile *.arc set filetype=arc
 
 " make subshell way more obvs
 let $DGREY="\e[0;36m"

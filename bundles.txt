@@ -1,16 +1,6 @@
 https://github.com/jonathanfilip/vim-lucius
-https://github.com/kballard/vim-swift.git
 https://github.com/scrooloose/nerdtree.git
 https://github.com/altercation/vim-colors-solarized.git
 https://github.com/tpope/vim-surround.git
-https://github.com/msanders/snipmate.vim.git
 https://github.com/jelera/vim-javascript-syntax.git
-https://github.com/kchmck/vim-coffee-script.git
 https://github.com/plasticboy/vim-markdown.git
-https://github.com/groenewege/vim-less
-https://github.com/mattn/emmet-vim
-https://github.com/wavded/vim-stylus.git
-https://github.com/elzr/vim-json.git
-https://github.com/digitaltoad/vim-jade.git
-https://github.com/brianleroux/vim-jsbeautify.git
-https://github.com/kien/ctrlp.vim.git
