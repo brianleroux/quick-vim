@@ -29,7 +29,7 @@ When software does many things it sacrifices doing one thing very well. Instead 
 
 ## the bundles for me
 
-This is a portable text editor for doing dev on the run, in a shell, probably on a temporary machine, possibly drunk. Vim is surprisely powerful stand-alone, odds are you don't *really* need a particular plugin bundle. Try to work with the stock install. You'll be surprised! And less, dependant on custom schemes. (Ironic words for a vim config project, I know.)
+This is a portable text editor for doing dev on the run, in a shell, probably on a temporary machine, possibly drunk. Vim is surprisingly powerful stand-alone, odds are you don't *really* need a particular plugin bundle. Try to work with the stock install. You'll be surprised! And less, dependant on custom schemes. (Ironic words for a vim config project, I know.)
 
 If you do need more, you can always fork this repo, create a branch, modify the bundles.txt to your hearts desire. If you find a bundle that meets the criteria above that you think I should check out: pls send a pull request!
 
