@@ -11,7 +11,7 @@ set mouse=a
 
 " syntax highligting
 syntax enable
-set background=dark
+set background=light " summa time
 let g:solarized_termcolors=256
 "set t_Co=16 " added for chromeos crosh chroot ubuntu
 colorscheme lucius 
