@@ -55,10 +55,5 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 hi NERDTreeFile ctermfg=darkgrey ctermbg=none cterm=none
 
-" ctrl f for jsbeautify
-let g:jsbeautify = {"indent_size": 2, "indent_char": "\t"}
-let g:jsbeautify_engine = "node"
-map <c-f> :call JsBeautify()<cr>
-
 " no need to fold things in markdown all the time
 let g:vim_markdown_folding_disabled = 1
