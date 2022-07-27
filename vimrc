@@ -11,10 +11,10 @@ set mouse=a
 
 " syntax highligting
 syntax enable
-set background=light " summa time
-let g:solarized_termcolors=256
-"set t_Co=16 " added for chromeos crosh chroot ubuntu
 colorscheme lucius 
+LuciusDark
+
+" add arcfile support
 au BufRead,BufNewFile *.arc set filetype=arc
 
 " make subshell way more obvs
@@ -40,8 +40,15 @@ set expandtab
 set ts=2
 set sw=2
 
+" reset leader
+let maplocalleader = ","
+
+" :Toggle the nerdtree
 " \+n toggles the nerdtree
-map <leader>n :NERDTreeToggle<CR>
+" ,+n toggles the nerdtree
+command Toggle NERDTreeToggle
+map <leader>n :Toggle<CR>
+map <localleader>n :Toggle<CR>
 
 " hide the annoying Press ? for help in NerdTree
 let NERDTreeMinimalUI = 1
@@ -52,9 +59,6 @@ hi NERDTreeFile ctermfg=darkgrey ctermbg=none cterm=none
 let g:jsbeautify = {"indent_size": 2, "indent_char": "\t"}
 let g:jsbeautify_engine = "node"
 map <c-f> :call JsBeautify()<cr>
-
-" 2 space coffeescript for the love of..
-au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 
 " no need to fold things in markdown all the time
 let g:vim_markdown_folding_disabled = 1

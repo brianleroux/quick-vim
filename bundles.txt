@@ -1,6 +1,5 @@
-https://github.com/jonathanfilip/vim-lucius
 https://github.com/scrooloose/nerdtree.git
-https://github.com/altercation/vim-colors-solarized.git
 https://github.com/tpope/vim-surround.git
 https://github.com/jelera/vim-javascript-syntax.git
 https://github.com/plasticboy/vim-markdown.git
+https://github.com/jonathanfilip/vim-lucius.git
