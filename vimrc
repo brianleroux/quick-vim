@@ -51,6 +51,7 @@ map <leader>n :Toggle<CR>
 map <localleader>n :Toggle<CR>
 
 " hide the annoying Press ? for help in NerdTree
+let NERDTreeIgnore = ['node_modules'] " show with 'f'
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 hi NERDTreeFile ctermfg=darkgrey ctermbg=none cterm=none
