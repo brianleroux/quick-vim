@@ -11,6 +11,7 @@ syntax region arcIndexesSection start=/\v\@tables-indexes/ skip=/\v\\./ end="\v\
 syntax region arcIndexesSection start=/\v\@indexes/ skip=/\v\\./ end="\v\@="
 syntax region arcScheduledSection start=/\v\@scheduled/ skip=/\v\\./ end="\v\@=" 
 syntax region arcScheduledSection start=/\v\@cdn/ skip=/\v\\./ end="\v\@=" 
+syntax region arcScheduledSection start=/\v\@plugins/ skip=/\v\\./ end="\v\@=" 
 
 syntax match Comments "\v#.*$"
 syntax match HTTP "\vget|post|put|patch|delete|any"
