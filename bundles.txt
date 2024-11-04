@@ -4,3 +4,5 @@ https://github.com/pangloss/vim-javascript.git
 https://github.com/jonsmithers/vim-html-template-literals.git
 https://github.com/plasticboy/vim-markdown.git
 https://github.com/jonathanfilip/vim-lucius.git
+https://github.com/hashivim/vim-terraform.git
+
